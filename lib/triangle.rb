@@ -3,11 +3,6 @@ class Triangle
     @side_1 = side_1
     @side_2 = side_2
     @side_3 = side_3
-    
-class TriangleError < StandardError
-  def message
-    "This is not a valid triangle."
-  end
   end
 
   def kind
@@ -28,10 +23,10 @@ class TriangleError < StandardError
   end
  
 
-# class TriangleError < StandardError
-#   def message
-#     "This is not a valid triangle."
-#   end
+class TriangleError < StandardError
+  def message
+    "This is not a valid triangle."
+  end
 end
 
 

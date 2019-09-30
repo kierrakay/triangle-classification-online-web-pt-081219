@@ -23,7 +23,7 @@ class Triangle
 
  
 
-class TriangleError < StandardError
+class TriangleError < StandardError #this is in triangle class
   def message
     "This is not a valid triangle."
   end

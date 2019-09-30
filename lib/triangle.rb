@@ -20,7 +20,7 @@ class Triangle
         end
       end
     end 
-  end
+
  
 
 class TriangleError < StandardError
@@ -28,6 +28,6 @@ class TriangleError < StandardError
     "This is not a valid triangle."
   end
 end
-
+end
 
 
